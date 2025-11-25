@@ -2,68 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://bravonsvc.com/index.html</loc>
-    <priority>1.0</priority>
+    <loc>https://www.bravonsvc.com/</loc>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
   </url>
 
   <url>
-    <loc>https://bravonsvc.com/about.html</loc>
-    <priority>0.8</priority>
+    <loc>https://www.bravonsvc.com/index.html</loc>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
   </url>
 
   <url>
-    <loc>https://bravonsvc.com/contact.html</loc>
-    <priority>0.8</priority>
+    <loc>https://www.bravonsvc.com/about.html</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://bravonsvc.com/cookiepolicy.html</loc>
-    <priority>0.5</priority>
+    <loc>https://www.bravonsvc.com/contact.html</loc>
+    <priority>0.90</priority>
+    <changefreq>weekly</changefreq>
   </url>
 
   <url>
-    <loc>https://bravonsvc.com/disclaimer.html</loc>
-    <priority>0.5</priority>
+    <loc>https://www.bravonsvc.com/cookiepolicy.html</loc>
+    <priority>0.40</priority>
+    <changefreq>yearly</changefreq>
   </url>
 
   <url>
-    <loc>https://bravonsvc.com/faqs.html</loc>
-    <priority>0.7</priority>
+    <loc>https://www.bravonsvc.com/disclaimer.html</loc>
+    <priority>0.40</priority>
+    <changefreq>yearly</changefreq>
   </url>
 
   <url>
-    <loc>https://bravonsvc.com/privacypolicy.html</loc>
-    <priority>0.6</priority>
+    <loc>https://www.bravonsvc.com/faqs.html</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://bravonsvc.com/quote.html</loc>
-    <priority>0.8</priority>
+    <loc>https://www.bravonsvc.com/privacypolicy.html</loc>
+    <priority>0.40</priority>
+    <changefreq>yearly</changefreq>
   </url>
 
   <url>
-    <loc>https://bravonsvc.com/refundrevi.html</loc>
-    <priority>0.5</priority>
+    <loc>https://www.bravonsvc.com/quote.html</loc>
+    <priority>0.90</priority>
+    <changefreq>weekly</changefreq>
   </url>
 
   <url>
-    <loc>https://bravonsvc.com/service.html</loc>
-    <priority>0.7</priority>
+    <loc>https://www.bravonsvc.com/refundrevi.html</loc>
+    <priority>0.50</priority>
+    <changefreq>yearly</changefreq>
   </url>
 
   <url>
-    <loc>https://bravonsvc.com/serviceagreement.html</loc>
-    <priority>0.6</priority>
+    <loc>https://www.bravonsvc.com/service.html</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://bravonsvc.com/termsnconditions.html</loc>
-    <priority>0.6</priority>
+    <loc>https://www.bravonsvc.com/serviceagreement.html</loc>
+    <priority>0.40</priority>
+    <changefreq>yearly</changefreq>
   </url>
 
   <url>
-    <loc>https://bravonsvc.com/thanks.html</loc>
-    <priority>0.4</priority>
+    <loc>https://www.bravonsvc.com/termsnconditions.html</loc>
+    <priority>0.40</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.bravonsvc.com/thanks.html</loc>
+    <priority>0.30</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.bravonsvc.com/google35cf8e067bf6ab62.html</loc>
+    <priority>0.10</priority>
+    <changefreq>never</changefreq>
   </url>
 
 </urlset>
