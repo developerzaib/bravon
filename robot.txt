@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://developerzaib.github.io/bravon/sitemap.xml
+Sitemap: https://www.bravonsvc.com/sitemap.xml
