@@ -1,0 +1,250 @@
+<!-- Trusted Partner -->
+    <!-- Partners Carousel -->
+    <div class="partners-wrap">
+      <h2 class="partners-title">Our Trusted Partners</h2>
+
+      <div class="partner-carousel" id="partnerCarousel">
+        <button class="nav prev" aria-label="Previous">&lsaquo;</button>
+
+        <div class="track">
+          <div class="item"><img src="img/partner1.png" alt="Partner 1" /></div>
+          <div class="item"><img src="img/partner2.png" alt="Partner 2" /></div>
+          <div class="item"><img src="img/partner3.png" alt="Partner 3" /></div>
+          <div class="item"><img src="img/partner4.png" alt="Partner 4" /></div>
+          <div class="item"><img src="img/partner5.png" alt="Partner 5" /></div>
+          <div class="item"><img src="img/partner6.png" alt="Partner 6" /></div>
+          <div class="item"><img src="img/partner7.png" alt="Partner 7" /></div>
+          <div class="item"><img src="img/partner8.png" alt="Partner 6" /></div>
+          <div class="item"><img src="img/partner9.png" alt="Partner 6" /></div>
+        </div>
+
+        <button class="nav next" aria-label="Next">&rsaquo;</button>
+      </div>
+    </div>
+
+    <style>
+      .partners-wrap {
+        max-width: 1100px;
+        margin: 40px auto;
+        padding: 0 16px;
+      }
+      .partners-title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 28px;
+      }
+
+      .partner-carousel {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+      }
+
+      .partner-carousel .track {
+        display: flex;
+        align-items: center;
+        gap: 40px; /* spacing between logos */
+        padding: 20px 70px;
+        transition: transform 0.4s ease;
+        will-change: transform;
+      }
+
+      .partner-carousel .item {
+        flex: 0 0 150px; /* fixed width */
+        height: 100px; /* fixed height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0.85);
+        opacity: 0.7;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+      }
+
+      .partner-carousel .item.active {
+        transform: scale(1.2);
+        opacity: 1;
+      }
+
+      .partner-carousel .item img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain; /* keeps original proportions */
+      }
+
+      .partner-carousel .nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 44px;
+        height: 44px;
+        border: none;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        font-size: 28px;
+        cursor: pointer;
+        display: grid;
+        place-items: center;
+        z-index: 2;
+        transition: background 0.2s;
+      }
+      .partner-carousel .nav:hover {
+        background: #f0f0f0;
+      }
+      .partner-carousel .prev {
+        left: 10px;
+      }
+      .partner-carousel .next {
+        right: 10px;
+      }
+      .partner-carousel .nav:disabled {
+        opacity: 0.3;
+        cursor: default;
+      }
+    </style>
+
+    <script>
+      (function () {
+        const carousel = document.getElementById("partnerCarousel");
+        const track = carousel.querySelector(".track");
+        const items = Array.from(track.children);
+        const prev = carousel.querySelector(".prev");
+        const next = carousel.querySelector(".next");
+
+        let index = Math.floor(items.length / 2);
+
+        function update() {
+          items.forEach((el, i) => el.classList.toggle("active", i === index));
+
+          const target = items[index];
+          const targetCenter = target.offsetLeft + target.offsetWidth / 2;
+          const containerCenter = carousel.clientWidth / 2;
+          const translateX = targetCenter - containerCenter;
+
+          track.style.transform = `translateX(${-translateX}px)`;
+
+          prev.disabled = index === 0;
+          next.disabled = index === items.length - 1;
+        }
+
+        prev.addEventListener("click", () => {
+          if (index > 0) {
+            index--;
+            update();
+          }
+        });
+        next.addEventListener("click", () => {
+          if (index < items.length - 1) {
+            index++;
+            update();
+          }
+        });
+
+        window.addEventListener("resize", update);
+        update();
+      })();
+    </script>
+
+
+    <!-- Trusted PArteners -->
+
+        <!-- Team Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div
+          class="text-center mx-auto mb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 600px"
+        >
+          <h6 class="text-primary">Team Member</h6>
+          <h1 class="mb-4">Experienced Team Members</h1>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="team-item rounded overflow-hidden">
+              <div class="d-flex">
+                <img class="img-fluid w-75" src="img/sharjeel.jpg" alt="" />
+                <div class="team-social w-25">
+                  <a
+                    class="btn btn-lg-square btn-outline-primary rounded-circle mt-3"
+                    href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-outline-primary rounded-circle mt-3"
+                    href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-outline-primary rounded-circle mt-3"
+                    href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="p-4">
+                <h5>M Sharjeel</h5>
+                <span>Owner 03284197079</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="team-item rounded overflow-hidden">
+              <div class="d-flex">
+                <img class="img-fluid w-75" src="img/adeel.jpg" alt="" />
+                <div class="team-social w-25">
+                  <a
+                    class="btn btn-lg-square btn-outline-primary rounded-circle mt-3"
+                    href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-outline-primary rounded-circle mt-3"
+                    href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-outline-primary rounded-circle mt-3"
+                    href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="p-4">
+                <h5>Adeel Ali</h5>
+                <span>Founder 03054546375</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="team-item rounded overflow-hidden">
+              <div class="d-flex">
+                <img class="img-fluid w-75" src="img/Arslaan.jpg" alt="" />
+                <div class="team-social w-25">
+                  <a
+                    class="btn btn-lg-square btn-outline-primary rounded-circle mt-3"
+                    href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-outline-primary rounded-circle mt-3"
+                    href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-outline-primary rounded-circle mt-3"
+                    href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="p-4">
+                <h5>Arslan Ali</h5>
+                <span>03078797307</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team End -->

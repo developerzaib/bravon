@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://developerzaib.github.io/bravon/sitemap.xml

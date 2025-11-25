@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://bravonsvc.com/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://bravonsvc.com/about.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bravonsvc.com/contact.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bravonsvc.com/cookiepolicy.html</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://bravonsvc.com/disclaimer.html</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://bravonsvc.com/faqs.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://bravonsvc.com/privacypolicy.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bravonsvc.com/quote.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bravonsvc.com/refundrevi.html</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://bravonsvc.com/service.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://bravonsvc.com/serviceagreement.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bravonsvc.com/termsnconditions.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bravonsvc.com/thanks.html</loc>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
