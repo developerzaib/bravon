@@ -1908,16 +1908,6 @@
             action="https://formsubmit.co/info@bravonsvc.com"
             method="POST"
           >
-            <!-- FormSubmit Settings -->
-            <input type="hidden" name="_next" value="thanks.html" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_template" value="table" />
-            <input
-              type="hidden"
-              name="_subject"
-              value="New Estimate Request - Bravon"
-            />
-
             <div class="form-title">Request a Free Estimate</div>
             <div class="form-sub">
               Fill in your project details and our team will respond within 2
@@ -1927,22 +1917,12 @@
             <div class="form-row">
               <div class="form-group">
                 <label>First Name</label>
-                <input
-                  type="text"
-                  name="first_name"
-                  placeholder="James"
-                  required
-                />
+                <input type="text" name="first_name" placeholder="James" />
               </div>
 
               <div class="form-group">
                 <label>Last Name</label>
-                <input
-                  type="text"
-                  name="last_name"
-                  placeholder="Thornton"
-                  required
-                />
+                <input type="text" name="last_name" placeholder="Thornton" />
               </div>
             </div>
 
@@ -1952,7 +1932,6 @@
                 type="text"
                 name="company"
                 placeholder="Thornton Construction Ltd"
-                required
               />
             </div>
 
@@ -1962,14 +1941,13 @@
                 type="email"
                 name="email"
                 placeholder="james@thornton.co.uk"
-                required
               />
             </div>
 
             <div class="form-group">
               <label>Project Type</label>
-              <select name="project_type" required>
-                <option value="">Select project type...</option>
+              <select name="project_type">
+                <option>Select project type...</option>
                 <option>Commercial Office</option>
                 <option>Residential Development</option>
                 <option>Industrial / Warehouse</option>
@@ -1984,8 +1962,7 @@
             <div class="form-row">
               <div class="form-group">
                 <label>Approx. Value</label>
-                <select name="project_value" required>
-                  <option value="">Select project value...</option>
+                <select name="project_value">
                   <option>Under £100k</option>
                   <option>£100k – £500k</option>
                   <option>£500k – £2M</option>
@@ -2005,7 +1982,6 @@
               <textarea
                 name="project_brief"
                 placeholder="Describe your project, scope of works and any specific requirements..."
-                required
               ></textarea>
             </div>
 
