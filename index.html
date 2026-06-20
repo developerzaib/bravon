@@ -1913,27 +1913,40 @@
               Fill in your project details and our team will respond within 2
               hours during business hours.
             </div>
+
             <div class="form-row">
               <div class="form-group">
-                <label>First Name</label
-                ><input type="text" placeholder="James" />
+                <label>First Name</label>
+                <input type="text" name="first_name" placeholder="James" />
               </div>
+
               <div class="form-group">
-                <label>Last Name</label
-                ><input type="text" placeholder="Thornton" />
+                <label>Last Name</label>
+                <input type="text" name="last_name" placeholder="Thornton" />
               </div>
             </div>
+
             <div class="form-group">
-              <label>Company</label
-              ><input type="text" placeholder="Thornton Construction Ltd" />
+              <label>Company</label>
+              <input
+                type="text"
+                name="company"
+                placeholder="Thornton Construction Ltd"
+              />
             </div>
+
             <div class="form-group">
-              <label>Email</label
-              ><input type="email" placeholder="james@thornton.co.uk" />
+              <label>Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="james@thornton.co.uk"
+              />
             </div>
+
             <div class="form-group">
               <label>Project Type</label>
-              <select>
+              <select name="project_type">
                 <option>Select project type...</option>
                 <option>Commercial Office</option>
                 <option>Residential Development</option>
@@ -1945,10 +1958,11 @@
                 <option>Other</option>
               </select>
             </div>
+
             <div class="form-row">
               <div class="form-group">
                 <label>Approx. Value</label>
-                <select>
+                <select name="project_value">
                   <option>Under £100k</option>
                   <option>£100k – £500k</option>
                   <option>£500k – £2M</option>
@@ -1956,16 +1970,21 @@
                   <option>£10M+</option>
                 </select>
               </div>
+
               <div class="form-group">
-                <label>Deadline</label><input type="date" />
+                <label>Deadline</label>
+                <input type="date" name="deadline" />
               </div>
             </div>
+
             <div class="form-group">
-              <label>Project Brief</label
-              ><textarea
+              <label>Project Brief</label>
+              <textarea
+                name="project_brief"
                 placeholder="Describe your project, scope of works and any specific requirements..."
               ></textarea>
             </div>
+
             <button type="submit" class="form-submit">
               Submit Estimate Request →
             </button>
