@@ -3111,10 +3111,9 @@
 
       /* ===== FORM ===== */
       function handleSubmit(e) {
-        e.preventDefault();
         const btn = e.target.querySelector(".form-submit");
-        btn.textContent =
-          "✓ Request Submitted — We'll be in touch within 2 hours";
+
+        btn.textContent = "✓ Sending...";
         btn.style.background = "var(--green)";
         btn.disabled = true;
       }
