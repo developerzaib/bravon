@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You | Bravon Design & Estimating Services</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        background: #07111f;
+        background: linear-gradient(
+          135deg,
+          #07111f 0%,
+          #0d1b2a 60%,
+          #122844 100%
+        );
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        color: #fff;
+      }
+
+      body::before {
+        content: "";
+        position: absolute;
+        width: 450px;
+        height: 450px;
+        background: #1d8fff22;
+        border-radius: 50%;
+        top: -180px;
+        right: -120px;
+        filter: blur(90px);
+      }
+
+      body::after {
+        content: "";
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        background: #00c2ff18;
+        border-radius: 50%;
+        left: -120px;
+        bottom: -120px;
+        filter: blur(90px);
+      }
+
+      .card {
+        position: relative;
+        width: 90%;
+        max-width: 650px;
+        padding: 55px 45px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 24px;
+        backdrop-filter: blur(18px);
+        text-align: center;
+        animation: fadeUp 0.8s ease;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+      }
+
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 35px;
+      }
+
+      .logo-box {
+        width: 58px;
+        height: 58px;
+        background: #1d8fff;
+        border-radius: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 800;
+        color: #fff;
+      }
+
+      .logo-text {
+        text-align: left;
+      }
+
+      .logo-text h2 {
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 1.2;
+      }
+
+      .logo-text span {
+        color: #b8c7da;
+        font-size: 14px;
+      }
+
+      .check {
+        width: 110px;
+        height: 110px;
+        margin: auto;
+        background: #17c964;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 55px;
+        box-shadow: 0 0 35px rgba(23, 201, 100, 0.45);
+        margin-bottom: 28px;
+        animation: pop 0.5s ease;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin-bottom: 15px;
+        font-weight: 800;
+      }
+
+      p {
+        font-size: 17px;
+        line-height: 1.8;
+        color: #c8d5e6;
+        margin-bottom: 35px;
+      }
+
+      .home-btn {
+        display: inline-block;
+        padding: 16px 38px;
+        background: #1d8fff;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 12px;
+        transition: 0.3s;
+      }
+
+      .home-btn:hover {
+        background: #3aa0ff;
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(29, 143, 255, 0.4);
+      }
+
+      .footer {
+        margin-top: 35px;
+        font-size: 14px;
+        color: #8da5be;
+      }
+
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(35px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes pop {
+        0% {
+          transform: scale(0.4);
+        }
+        70% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      @media (max-width: 600px) {
+        .card {
+          padding: 40px 25px;
+        }
+
+        .logo {
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        .logo-text {
+          text-align: center;
+        }
+
+        h1 {
+          font-size: 28px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="logo">
+        <div class="logo-box">B</div>
+
+        <div class="logo-text">
+          <h2>Bravon Design & Estimating</h2>
+          <span>Professional Construction Estimating Services</span>
+        </div>
+      </div>
+
+      <div class="check">✓</div>
+
+      <h1>Thank You!</h1>
+
+      <p>
+        Your estimate request has been received successfully.
+        <br /><br />
+        One of our estimators will review your project and contact you within
+        <strong>2 business hours.</strong>
+      </p>
+
+      <a href="index.html" class="home-btn"> ← Back to Home </a>
+
+      <div class="footer">
+        © 2026 Bravon Design & Estimating Services. All Rights Reserved.
+      </div>
+    </div>
+  </body>
+</html>
+
